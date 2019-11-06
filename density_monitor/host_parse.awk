@@ -7,4 +7,5 @@ BEGIN {
 }
 
 END{
-    print$(6) | sed 's/^.\(.*\).$/\1/'
+	print substr($6, 2, length($6) - 1)
+}
