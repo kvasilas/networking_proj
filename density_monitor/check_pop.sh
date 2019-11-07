@@ -1,12 +1,12 @@
 #!/bin/bash
 
-for ((i = 0 ; i < 168 ; i++)); do
-    date > time_stamps
-    nmap words >> RAW
-    awk -f host_parse.awk RAW >> number_host
-    awk -f ip_parse.awk RAW >> number_ip
-    #awk -f name_mac.awk TraceData >> mac_name
-    sleep 60
+for ((i = 0 ; i < 169 ; i++)); do #169 for plotting only need 168
+    date >> data/time_stamps
+    echo $i >> data/numbers
+    nmap -sP 192.168.1.0/24 > data/RAW
+    awk -f host_parse.awk RAW >> data/number_host.txt
+    awk -f ip_parse.awk RAW >> data/number_ip.txt
+    sleep 3600 
 done
 
-python3 plotter.py
+#python3 plotter.py
