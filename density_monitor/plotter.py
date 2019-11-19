@@ -8,23 +8,23 @@ x = np.loadtxt(r'C:\Users\USER\Documents\coding\projects\networking_proj\density
 
 def plot_totals(x, y, label):
     plt.plot(x, y, 'b.-', label='Hosts')
-    plt.ylim(80,95)
+    plt.ylim(55,110)
     plt.xlim(1,168)
     plt.xticks(np.arange(0, 169, step=24))#data points + 1
     plt.xlabel('Hours')
     plt.ylabel(label)
     plt.title(label + ' on a Network over a week')
     
-    plt.annotate('Monday', xy=(8, 80))
-    plt.annotate('Tuesday', xy=(32, 80))
+    plt.annotate('Monday', xy=(8, 55))
+    plt.annotate('Tuesday', xy=(32, 55))
     plt.axvspan(24, 48, alpha=0.3, color='red')
-    plt.annotate('Wednesday', xy=(54, 80))
-    plt.annotate('Thursday', xy=(79, 80))
+    plt.annotate('Wednesday', xy=(54, 55))
+    plt.annotate('Thursday', xy=(79, 55))
     plt.axvspan(72, 96, alpha=0.3, color='red')
-    plt.annotate('Friday', xy=(106, 80))
-    plt.annotate('Saturday', xy=(128, 80))
+    plt.annotate('Friday', xy=(106, 55))
+    plt.annotate('Saturday', xy=(128, 55))
     plt.axvspan(120, 144, alpha=0.3, color='red')
-    plt.annotate('Sunday', xy=(154, 80))
+    plt.annotate('Sunday', xy=(154, 55))
     
     plt.grid(True)
     plt.legend()
@@ -60,14 +60,16 @@ def calc_avg(x):
         avgs.append(hour_sum)
         hour_start += 1
         hour_sum = 0
+    avgs[0] *= 7
+    avgs[0] /= 8
     np.asarray(avgs)
     return(np.asarray(avgs))
 
 
 def main():
-    plot_totals(x, host, "Hosts")
+    #plot_totals(x, host, "Hosts")
     plot_totals(x, ip, "IP Addresses")
-    plot_averages(host, "Hosts")
+    #plot_averages(host, "Hosts")
     plot_averages(ip, "IP Addresses")
 
 main()
