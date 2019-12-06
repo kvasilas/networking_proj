@@ -5,6 +5,7 @@ import matplotlib.pyplot as plt
 host = np.loadtxt(r'C:\Users\USER\Documents\coding\projects\networking_proj\density_monitor\data\number_host.txt', delimiter=",", unpack=False)
 ip = np.loadtxt(r'C:\Users\USER\Documents\coding\projects\networking_proj\density_monitor\data\number_ip.txt', delimiter=",", unpack=False)
 x = np.loadtxt(r'C:\Users\USER\Documents\coding\projects\networking_proj\density_monitor\data\numbers.txt', delimiter=",", unpack=False)
+#print(np.mean(host))
 
 def plot_totals(x, y, label):
     plt.plot(x, y, 'b.-', label='Hosts')
@@ -63,13 +64,14 @@ def calc_avg(x):
     avgs[0] *= 7
     avgs[0] /= 8
     np.asarray(avgs)
+    #print(np.mean(avgs))
     return(np.asarray(avgs))
 
 
 def main():
-    #plot_totals(x, host, "Hosts")
+    plot_totals(x, host, "Hosts")
     plot_totals(x, ip, "IP Addresses")
-    #plot_averages(host, "Hosts")
+    plot_averages(host, "Hosts")
     plot_averages(ip, "IP Addresses")
 
 main()

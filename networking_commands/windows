@@ -1,0 +1,2 @@
+see all past wlan network
+    netsh wlan show profile
