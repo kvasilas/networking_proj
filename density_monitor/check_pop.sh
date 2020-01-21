@@ -1,5 +1,7 @@
 #!/bin/bash
 
+my_ip=""
+
 for ((i = 0 ; i < 169 ; i++)); do #169 for plotting only need 168
     date >> time_stamps
     echo $i >> numbers
@@ -10,4 +12,4 @@ for ((i = 0 ; i < 169 ; i++)); do #169 for plotting only need 168
     sleep 3600 
 done
 
-#python3 plotter.py
+python3 plotter.py

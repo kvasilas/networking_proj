@@ -1,219 +1,228 @@
 
-Starting Nmap 7.01 ( https://nmap.org ) at 2019-12-06 01:49 UTC
+Starting Nmap 7.01 ( https://nmap.org ) at 2019-12-06 02:22 UTC
 Illegal character(s) in hostname -- replacing with '*'
 Illegal character(s) in hostname -- replacing with '*'
 Illegal character(s) in hostname -- replacing with '*'
 Illegal character(s) in hostname -- replacing with '*'
 Nmap scan report for SigepRouter (192.168.1.1)
-Host is up (0.00080s latency).
+Host is up (0.0022s latency).
 MAC Address: 60:38:E0:BD:E4:48 (Unknown)
-Nmap scan report for Google-Home-Mini (192.168.1.3)
-Host is up (0.0075s latency).
+Nmap scan report for 192.168.1.3
+Host is up (0.12s latency).
 MAC Address: 00:F6:20:5D:C6:62 (Unknown)
 Nmap scan report for 192.168.1.5
 Host is up (0.023s latency).
 MAC Address: 30:59:B7:FC:1E:12 (Microsoft)
 Nmap scan report for 192.168.1.8
-Host is up (0.083s latency).
+Host is up (0.033s latency).
 MAC Address: 04:A2:22:7D:85:9C (Unknown)
+Nmap scan report for Chromecast (192.168.1.12)
+Host is up (0.11s latency).
+MAC Address: 6C:AD:F8:FE:4B:C7 (AzureWave Technology)
 Nmap scan report for 192.168.1.14
-Host is up (-0.12s latency).
-MAC Address: 3C:9B:D6:36:0F:FE (Unknown)
+Host is up (0.0014s latency).
+MAC Address: 3C:9B:D6:5D:B3:1E (Unknown)
 Nmap scan report for amazon-c8c4552e1 (192.168.1.16)
-Host is up (-0.072s latency).
+Host is up (0.075s latency).
 MAC Address: 40:B4:CD:30:33:F2 (Unknown)
 Nmap scan report for G6 (192.168.1.17)
-Host is up (0.010s latency).
+Host is up (0.24s latency).
 MAC Address: DC:0B:34:BD:E9:3C (Unknown)
 Nmap scan report for 192.168.1.18
-Host is up (-0.11s latency).
+Host is up (0.0094s latency).
 MAC Address: 00:01:C7:B4:43:FF (Cisco Systems)
-Nmap scan report for 192.168.1.20
-Host is up (-0.056s latency).
-MAC Address: A8:96:75:BA:3D:B5 (Unknown)
-Nmap scan report for 192.168.1.25
-Host is up (0.17s latency).
+Nmap scan report for DESKTOP-3M3OAEK (192.168.1.22)
+Host is up (0.046s latency).
+MAC Address: 30:24:32:1C:95:30 (Unknown)
+Nmap scan report for XboxOne (192.168.1.25)
+Host is up (-0.12s latency).
 MAC Address: BC:83:85:78:02:1B (Unknown)
 Nmap scan report for Meghans-iPhone (192.168.1.26)
-Host is up (0.010s latency).
-MAC Address: 18:F1:D8:D4:A1:17 (Unknown)
-Nmap scan report for amazon-5c9aebb6f (192.168.1.38)
 Host is up (0.099s latency).
+MAC Address: 18:F1:D8:D4:A1:17 (Unknown)
+Nmap scan report for Rum-Ham (192.168.1.33)
+Host is up (-0.15s latency).
+MAC Address: 10:98:C3:1C:45:24 (Unknown)
+Nmap scan report for amazon-5c9aebb6f (192.168.1.38)
+Host is up (-0.072s latency).
 MAC Address: 4C:17:44:EF:A8:6A (Unknown)
 Nmap scan report for LAPTOP-OUT095RG (192.168.1.40)
-Host is up (-0.054s latency).
+Host is up (0.070s latency).
 MAC Address: 48:F1:7F:86:F1:A5 (Unknown)
 Nmap scan report for 192.168.1.41
-Host is up (-0.099s latency).
+Host is up (0.0019s latency).
 MAC Address: 70:BC:10:DE:8F:95 (Unknown)
 Nmap scan report for Meghans-Air (192.168.1.44)
-Host is up (0.041s latency).
+Host is up (0.0043s latency).
 MAC Address: 38:F9:D3:DE:8F:00 (Unknown)
 Nmap scan report for Roger***s*Roku (192.168.1.46)
-Host is up (0.10s latency).
+Host is up (0.0020s latency).
 MAC Address: D8:31:34:DE:E4:E9 (Unknown)
-Nmap scan report for Galaxy-S8 (192.168.1.47)
-Host is up (-0.13s latency).
-MAC Address: DC:EF:CA:59:A5:23 (Unknown)
 Nmap scan report for 192.168.1.50
-Host is up (0.10s latency).
+Host is up (-0.13s latency).
 MAC Address: C4:98:5C:5A:99:7D (Unknown)
 Nmap scan report for 192.168.1.51
-Host is up (-0.17s latency).
+Host is up (-0.14s latency).
 MAC Address: 98:B6:E9:24:32:BE (Unknown)
 Nmap scan report for 192.168.1.52
-Host is up (0.0034s latency).
+Host is up (0.0080s latency).
 MAC Address: 00:14:69:EA:64:80 (Cisco Systems)
-Nmap scan report for DESKTOP-3QVU7GP (192.168.1.53)
-Host is up (-0.17s latency).
-MAC Address: 48:45:20:5C:85:37 (Intel Corporate)
 Nmap scan report for DESKTOP-NNEV47N (192.168.1.55)
-Host is up (0.00078s latency).
+Host is up (0.0011s latency).
 MAC Address: BC:5F:F4:E6:5A:D2 (ASRock Incorporation)
 Nmap scan report for Archer_C7 (192.168.1.60)
-Host is up (0.00060s latency).
+Host is up (0.0016s latency).
 MAC Address: 50:C7:BF:69:8D:7A (Tp-link Technologies)
 Nmap scan report for BRW9C305B45C3BB (192.168.1.70)
-Host is up (0.074s latency).
+Host is up (0.017s latency).
 MAC Address: 9C:30:5B:45:C3:BB (Unknown)
+Nmap scan report for Jason-chlus (192.168.1.72)
+Host is up (0.071s latency).
+MAC Address: 54:2B:8D:5F:33:54 (Unknown)
+Nmap scan report for Rogers-iPhone (192.168.1.73)
+Host is up (0.058s latency).
+MAC Address: 38:53:9C:A5:6F:1C (Unknown)
 Nmap scan report for 192.168.1.74
-Host is up (0.051s latency).
+Host is up (0.055s latency).
 MAC Address: EC:C4:0D:6B:E2:7F (Unknown)
 Nmap scan report for 192.168.1.79
-Host is up (0.032s latency).
+Host is up (-0.092s latency).
 MAC Address: A4:DA:22:20:B0:AB (Unknown)
+Nmap scan report for Doms-iPhone (192.168.1.82)
+Host is up (-0.063s latency).
+MAC Address: 40:26:19:31:F3:8B (Unknown)
 Nmap scan report for 192.168.1.87
-Host is up (0.00080s latency).
+Host is up (0.0015s latency).
 MAC Address: 00:30:48:7E:92:B4 (Supermicro Computer)
 Nmap scan report for 192.168.1.89
-Host is up (0.0021s latency).
+Host is up (0.00076s latency).
 MAC Address: 00:0C:29:02:C3:AC (VMware)
 Nmap scan report for Mi9TPro-MiPhone (192.168.1.93)
-Host is up (0.30s latency).
+Host is up (0.010s latency).
 MAC Address: E0:DC:FF:F3:5E:FB (Unknown)
 Nmap scan report for DESKTOP-33D9618 (192.168.1.100)
-Host is up (-0.16s latency).
+Host is up (0.0015s latency).
 MAC Address: 60:45:CB:A0:F1:06 (Unknown)
 Nmap scan report for HPC52E68 (192.168.1.104)
-Host is up (0.033s latency).
+Host is up (0.0094s latency).
 MAC Address: 98:E7:F4:C5:2E:68 (Unknown)
 Nmap scan report for amazon-5aeef1a70 (192.168.1.107)
-Host is up (0.029s latency).
+Host is up (0.040s latency).
 MAC Address: C4:95:00:10:A1:38 (Unknown)
 Nmap scan report for JT-XBOX (192.168.1.110)
-Host is up (0.092s latency).
+Host is up (0.026s latency).
 MAC Address: 28:18:78:76:49:FF (Microsoft)
+Nmap scan report for ESP_B97EEC (192.168.1.121)
+Host is up (0.096s latency).
+MAC Address: 60:01:94:B9:7E:EC (Unknown)
 Nmap scan report for Puj (192.168.1.125)
-Host is up (0.056s latency).
+Host is up (0.034s latency).
 MAC Address: 18:56:80:E5:F7:9F (Unknown)
 Nmap scan report for Archer_A7 (192.168.1.128)
-Host is up (0.00063s latency).
+Host is up (0.00061s latency).
 MAC Address: AC:84:C6:C9:68:81 (Unknown)
-Nmap scan report for JorgeRierasiPad (192.168.1.129)
-Host is up (0.094s latency).
-MAC Address: 1C:AB:A7:9A:E7:31 (Apple)
 Nmap scan report for 192.168.1.130
-Host is up (0.088s latency).
+Host is up (0.074s latency).
 MAC Address: D4:F0:57:5C:F7:F3 (Unknown)
 Nmap scan report for Google-Nest-Hub (192.168.1.132)
-Host is up (0.029s latency).
+Host is up (0.083s latency).
 MAC Address: 3C:8D:20:10:7E:2E (Unknown)
 Nmap scan report for Google-Home (192.168.1.134)
-Host is up (0.13s latency).
+Host is up (0.091s latency).
 MAC Address: F4:F5:D8:D5:3B:B2 (Google)
 Nmap scan report for 192.168.1.135
-Host is up (1.4s latency).
+Host is up (0.13s latency).
 MAC Address: B0:05:94:7E:97:1B (Liteon Technology)
+Nmap scan report for 192.168.1.136
+Host is up (0.0040s latency).
+MAC Address: C0:33:5E:D4:34:51 (Microsoft)
 Nmap scan report for 192.168.1.143
-Host is up (0.0058s latency).
+Host is up (0.0085s latency).
 MAC Address: D8:6C:63:7A:BA:4C (Unknown)
 Nmap scan report for 192.168.1.146
-Host is up (0.10s latency).
+Host is up (0.090s latency).
 MAC Address: 40:4E:36:D4:5A:B7 (Unknown)
 Nmap scan report for 192.168.1.148
-Host is up (0.089s latency).
+Host is up (0.057s latency).
 MAC Address: 2C:33:7A:A4:EF:F5 (Hon Hai Precision Ind.)
 Nmap scan report for 192.168.1.150
-Host is up (0.0017s latency).
+Host is up (0.0016s latency).
 MAC Address: F0:6E:0B:FE:4A:43 (Unknown)
+Nmap scan report for Jeffs-IPhone8 (192.168.1.160)
+Host is up (0.051s latency).
+MAC Address: CC:2D:B7:E4:29:79 (Unknown)
 Nmap scan report for amazon-7818b5c36 (192.168.1.162)
-Host is up (0.14s latency).
+Host is up (-0.082s latency).
 MAC Address: 68:9A:87:6C:94:BF (Unknown)
 Nmap scan report for DESKTOP-MM08LES (192.168.1.174)
-Host is up (0.0015s latency).
+Host is up (0.0016s latency).
 MAC Address: 70:85:C2:07:3D:BA (Unknown)
 Nmap scan report for Room-12 (192.168.1.175)
-Host is up (0.062s latency).
+Host is up (0.10s latency).
 MAC Address: D0:03:4B:ED:82:77 (Apple)
-Nmap scan report for BrandoniPhoneXR (192.168.1.177)
-Host is up (0.083s latency).
-MAC Address: 74:B5:87:0E:E6:D3 (Unknown)
-Nmap scan report for Chromecast (192.168.1.181)
-Host is up (0.081s latency).
+Nmap scan report for 192.168.1.181
+Host is up (0.12s latency).
 MAC Address: 80:D2:1D:2B:7A:08 (AzureWave Technology)
 Nmap scan report for amazon-4c89b4c38 (192.168.1.182)
-Host is up (0.080s latency).
+Host is up (0.018s latency).
 MAC Address: CC:9E:A2:38:7F:B2 (Unknown)
 Nmap scan report for amazon-90387ba35 (192.168.1.183)
-Host is up (0.090s latency).
+Host is up (0.081s latency).
 MAC Address: FC:A6:67:71:EF:D4 (Unknown)
 Nmap scan report for Galaxy-Note9 (192.168.1.190)
-Host is up (0.060s latency).
+Host is up (-0.098s latency).
 MAC Address: 00:9D:6B:3F:3D:83 (Unknown)
 Nmap scan report for amazon-6dd5b5be0 (192.168.1.196)
-Host is up (0.052s latency).
+Host is up (0.010s latency).
 MAC Address: FC:65:DE:F7:0F:67 (Unknown)
 Nmap scan report for Justin-Desktop (192.168.1.198)
-Host is up (0.0015s latency).
+Host is up (0.0016s latency).
 MAC Address: 4C:CC:6A:08:AC:F0 (Unknown)
 Nmap scan report for 192.168.1.199
-Host is up (0.00089s latency).
+Host is up (0.00079s latency).
 MAC Address: C0:33:5E:A6:7B:4A (Microsoft)
-Nmap scan report for Rogers-MBP (192.168.1.201)
-Host is up (0.095s latency).
-MAC Address: F4:5C:89:CB:D6:EB (Unknown)
-Nmap scan report for 192.168.1.221
-Host is up (0.0084s latency).
+Nmap scan report for OnePlus_6T (192.168.1.217)
+Host is up (0.010s latency).
+MAC Address: 98:09:CF:0A:4C:9F (Unknown)
+Nmap scan report for Google-Home-Mini (192.168.1.221)
+Host is up (0.058s latency).
 MAC Address: D4:F5:47:45:E8:CD (Unknown)
-Nmap scan report for 192.168.1.223
-Host is up (0.00066s latency).
+Nmap scan report for DESKTOP-P7V5KUJ (192.168.1.223)
+Host is up (-0.15s latency).
 MAC Address: 6C:C2:17:75:ED:80 (Hewlett Packard)
 Nmap scan report for amazon-709297a15 (192.168.1.228)
-Host is up (0.29s latency).
+Host is up (0.087s latency).
 MAC Address: 74:D6:37:D5:F7:6C (Unknown)
-Nmap scan report for Harrups-iPhone (192.168.1.234)
-Host is up (0.052s latency).
-MAC Address: 00:5B:94:45:15:A8 (Unknown)
 Nmap scan report for Justins-iPhone (192.168.1.240)
-Host is up (0.093s latency).
+Host is up (0.033s latency).
 MAC Address: 80:B0:3D:8A:10:CA (Unknown)
 Nmap scan report for Second-Floor-530-AP (192.168.1.244)
-Host is up (0.0022s latency).
+Host is up (0.0013s latency).
 MAC Address: 50:C7:BF:75:FA:28 (Tp-link Technologies)
 Nmap scan report for First-Floor-528-AP (192.168.1.245)
-Host is up (0.0023s latency).
+Host is up (0.0016s latency).
 MAC Address: 50:C7:BF:75:F8:A4 (Tp-link Technologies)
 Nmap scan report for Fourth-Floor-528-AP (192.168.1.246)
-Host is up (0.0016s latency).
+Host is up (-0.15s latency).
 MAC Address: 50:C7:BF:CA:E3:F8 (Tp-link Technologies)
 Nmap scan report for Fourth-Floor-530-AP (192.168.1.247)
 Host is up (0.0016s latency).
 MAC Address: 50:C7:BF:CA:E3:78 (Tp-link Technologies)
 Nmap scan report for Third-Floor-528-AP (192.168.1.248)
-Host is up (-0.15s latency).
+Host is up (0.0021s latency).
 MAC Address: 50:C7:BF:CA:E4:1E (Tp-link Technologies)
 Nmap scan report for Third-Floor-530-AP (192.168.1.249)
-Host is up (-0.15s latency).
+Host is up (0.0016s latency).
 MAC Address: 50:C7:BF:CA:E9:1E (Tp-link Technologies)
 Nmap scan report for Second-Floor-528-AP (192.168.1.250)
-Host is up (-0.15s latency).
+Host is up (0.0026s latency).
 MAC Address: 50:C7:BF:CA:E5:76 (Tp-link Technologies)
 Nmap scan report for Extension-AP (192.168.1.253)
-Host is up (-0.15s latency).
+Host is up (0.0014s latency).
 MAC Address: 50:C7:BF:75:F7:90 (Tp-link Technologies)
 Nmap scan report for Kitchen-AP (192.168.1.254)
-Host is up (-0.15s latency).
+Host is up (0.0019s latency).
 MAC Address: 50:C7:BF:76:06:72 (Tp-link Technologies)
 Nmap scan report for amlogic (192.168.1.15)
 Host is up.
-Nmap done: 256 IP addresses (71 hosts up) scanned in 14.67 seconds
+Nmap done: 256 IP addresses (74 hosts up) scanned in 7.20 seconds
