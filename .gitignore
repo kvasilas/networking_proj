@@ -1,2 +1,8 @@
 *devices
-*RAW
+
+# Ignore all RAW files recursively
+**/RAW*
+**/RAW
+
+# Ignore all nmap_data.txt files recursively
+**/nmap_data.txt
